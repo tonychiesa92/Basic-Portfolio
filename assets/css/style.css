@@ -1,0 +1,16 @@
+.topbar {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+#name, #links {
+      float: left;
+  }
+
+#name {
+    margin: 70%;
+}
+
+#links {
+    margin: 30%;
+}
