@@ -1,9 +1,18 @@
+* {
+background-image: url('../images/email-pattern.png');
+}
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: #cccccc;
+}
 .topbar {
     width: 1024px;
     margin: 0 auto;
   }
 
-#name, #links {
+#name {
       float: left;
   }
 
@@ -12,5 +21,6 @@
 }
 
 #links {
+    float: right;
     margin: 20px;
 }
