@@ -29,7 +29,17 @@ header {
 .links {
     float: right;
     margin: 20px;
-    margin-right: 125px;
+    
+}
+
+.navlink {
+  border-right: 2px solid #cccccc;
+    padding: 0px 5px 0px 3px;
+
+}
+
+.navlink:last-child {
+border-right: none;
 }
 
 .aboutme {
