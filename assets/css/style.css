@@ -2,25 +2,71 @@
 background-image: url('../images/email-pattern.png');
 }
 header {
-    padding: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
     background: #ffffff;
     border: #cccccc;
+    height: 100px;
+    margin-bottom: 35px;
 }
 .topbar {
-    width: 1024px;
-    margin: 0 auto;
+    width: 100%;
   }
 
-#name {
+.name {
       float: left;
+      background-color: #4aaaa5;
+      font-family: 'Georgia', Times, Times New Roman, serif;
   }
 
-#name {
+.name {
     margin: 20px
 }
 
-#links {
+.links {
     float: right;
     margin: 20px;
+}
+
+.aboutme {
+  padding: 20px;
+  width: 960px;
+  margin: 0 auto;
+  background: #ffffff;
+  
+}
+
+.label {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  background: #ffffff;
+  color: #4aaaa5;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+}
+
+hr {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #777777;
+}
+
+#textbox {
+  font-family:  'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #ffffff;
+}
+
+#floated {
+  float: left;
+  width: 900px;
+}
+
+.textwrapleft {
+  float: left;
+  margin-right: 20px;
+  
 }
