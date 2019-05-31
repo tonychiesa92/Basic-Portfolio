@@ -9,6 +9,7 @@
         <title>Tony Chiesa Bio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         
     </head>
@@ -37,17 +38,18 @@
                 Contact
             </div>
             <hr>
-            <div class="container">
-                <form action="action_page.php">
+
+            <div id="textbox">
+                <form id="textbox" action="mailto:tonychiesa92@gmail.com" method="post" enctype="text/plain">
               
-                  <label for="fname">Name</label>
-                  <input type="text" id="fname" name="firstname" placeholder="John Smith">
+                  <label>Name</label>
+                  <input type="text" name="fullname" placeholder="John Smith">
               
-                  <label for="lname">Email</label>
-                  <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+                  <label>Email</label>
+                  <input type="text" name="email" placeholder="example@gmail.com">
               
-                  <label for="subject">Message</label>
-                  <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+                  <label>Message</label>
+                  <textarea name="subject" placeholder="" style="height:200px"></textarea>
               
                   <input type="submit" value="Submit">
               
