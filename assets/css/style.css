@@ -2,6 +2,23 @@
 background-image: url('../images/email-pattern.png');
 
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+.push {
+  height: 50px;
+}
+
 header {
     margin-top: 0px;
     background: #ffffff;
@@ -72,6 +89,7 @@ hr {
 }
 
 #textbox {
+  line-height: 2;
   font-family:  'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
   margin-top: 20px;
   margin-bottom: 20px;
@@ -99,12 +117,16 @@ hr {
   width: 100%;
   border-top: 8px solid #4aaaa5;
   text-align: center;
-  font-family:  'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+  
   
 }
 
 #foot {
+  margin-top: 33px;
+  color: #ffffff;
+  font-size: 11px;
   vertical-align: text-bottom;
   background: #666666;
+  font-family:  'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 }
 
