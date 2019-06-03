@@ -35,14 +35,14 @@ header {
 .topbar-info {
   width: 960px;
   margin: 0 auto;
-  
+
 }
 
 .name {
     font-size: 30px;
     font-weight: bold;
     margin-top: 0px;
-    margin-left: 0px;
+    
     padding: 35px;
     float: left;
     background: #4aaaa5;
@@ -107,13 +107,15 @@ hr {
   
 }
 
-.portfolio-img {
-  float: left;
-  margin-right: 40px;
-  margin-bottom: 60px;
-  
-}
 
+.portfolio-img {
+  
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  height: 200px;
+  width: 250px;
+}
 
 .textwrapleft {
   float: left;
@@ -128,7 +130,6 @@ hr {
   width: 100%;
   border-top: 8px solid #4aaaa5;
   text-align: center;
-  
   
 }
 
@@ -164,9 +165,30 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type="submit"]:hover {
+.banner {
   background: #4aaaa5;
+  color: #ffffff;
+  width: 212px;
+  position: relative;
+  margin-top: -100px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
 }
+
+.banner2 {
+  background: #4aaaa5;
+  color: #ffffff;
+  width: 212px;
+  position: relative;
+  margin-top: -92px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-left: 275px;
+}
+
+
+
 
 
